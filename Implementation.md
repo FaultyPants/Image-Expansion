@@ -1,9 +1,9 @@
-<h3><a href="index.html">Concept</a><a href="Implementation.html">Implementation</a> <a href="Results.html">Results</a> <a href="midtermreport.html">Midterm Report</a></h3>
-<title>
-			Concept
-</title>
-<body>
-  <h1>Approach and Implementation</h1>
+--
+layout: page
+title: Concept
+--
+
+#Implementation and Approach
 
 The immediate issue with training a neural network to extend the boundaries of an image is that it is impossible to feed different sized matrices, or images in our case, into most if not all conventional graph designs. This would mean that all image sizes would need a separate network trained and on top of this you would also need to train each image size with a variety of output sizes to accommodate different filter sizes. Luckily we have Fourier transforms.
 
@@ -18,4 +18,4 @@ A sequential neural network was set up in JavaScript using TensorFlow.js to trai
 This image with grown pixels can now be used with a convolutional filter to hopefully get a more accurate filtered image than previous techniques allowed.
 
 To somewhat evaluate the results of our neural network we will compare an average pixel prediction score for each technique across a variety of random images. 
-</body>
+
