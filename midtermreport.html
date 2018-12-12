@@ -1,9 +1,9 @@
-<h3><a href="index.html">Concept</a><a href="Implementation.html">Implementation</a> <a href="Results.html">Results</a> <a href="midtermreport.html">Midterm Report</a></h3>
-<title>
-			Midterm Report
-</title>
-<body>
-  <h1>Midterm Report</h1>
+--
+layout: page
+title: Midterm Report
+--
+
+#Midterm Report
 
   Photo manipulation is for the sake of improving the quality of an image. When processing an image around its edge pixels all photographic filters encounter the issue of not being able to gather information outside of the photo’s boundaries and, without intervention, will result in a smaller image on the output. Filters are prevalent in many popular social media networks like Instagram and snapchat where shrinking is dependent on filter size and will be less noticeable with larger image sensors; however with non-professional, consumer-facing cameras - such as those used for most social media engagements - a smaller photo can result in the removal of significant features in a photo. The shrinking on professional grade cameras may be insignificant but maintaining consistency across image size and aspect ratio when creating professional work is important. Looking forward, with enough training this project could be used to reduce the cropping in digitally stitched panoramic photos, filling in the pixels without values that result from perspective warping and again maintaining the aspect ratio. This sort of prediction based “hallucinating” could also be used to intelligently remove objects like signs, construction cones, or other visually unattractive subjects in a photo.
 
@@ -16,4 +16,3 @@
   Existing solutions to filtering edge pixels remain static and assume that the qualities of the edge continue linearly from the edge. Organic shapes such as leaves of trees, hair, or clouds will not necessarily continue past the edge in the manner that mirroring will assume. By determining the form of the subjects of the image, our neural net will predict the way in which these organic forms will continue beyond the boundaries captured in the photo.
 
   To test the accuracy of our method we will simply create a testing set, completely different from the training image set, that will be made of original images paired with cropped copies of themselves. Then we will run this testing set through our neural network and alternative image extension techniques and compare the extended pixels, the pixels created outside the original image by different extension methods, to the true values of those pixels in the testing set. Doing this over a variety of images and crop amounts will show which methods turn out to be the most accurate.
-</body>
