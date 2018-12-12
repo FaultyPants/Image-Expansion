@@ -8,6 +8,7 @@ We believe that we can train a neural network to predict pixels just outside of 
 <br><br>
 Each image will be preprocessed to trim of n-pixels of the image border to create a set of input images tied to expected output images. The n-pixels required to trim correspond to floor(filterWidth/2) when training to apply a filter assuming its square, or simply how many pixels you want to extend the image by. Some rescaling of input and output images may also be required to properly work with our neural network. The hope is that with a big enough data set, the network should start to make correct predictions of pixels outside any image. For the scope of this assignment however, we may decide to narrow to a specific type of photograph such that we can have a more specific training set and make more interesting pixel predictions for that type of photograph.<br>
 
+<img src="Concept.png" alt="Before"> <img src="Concept2.png" alt="After">
 <h2>Motivation</h2>
 
   Convolutional filters are a very foundational part of image computation. For those who don’t know what a convolutional filter is, they can be thought of as creating an image pixel-by-pixel by combining a nxn grid of pixels with a nxn intensity filter applied for each pixel. For each pixel of the new image, the grid of considered image pixels moves correspondingly. In other words, to calculate the value at positions (0,0) the center of the considered grid will be at (0,0) on the original image and for position (1,0) the center of the grid will move to (1,0) on the original image.<br><br>
