@@ -1,0 +1,101 @@
+h1 {
+	font-family:sans-serif;
+	color: black;
+	text-align:center;
+	font-size: 40px;
+}
+h2 {
+	font-family: sans-serif;
+	margin-left: 10px;
+}
+h3 {
+	font-family: sans-serif;
+	margin-left: 10px;
+}
+img {
+	align: middle;	
+}
+p {
+	font-family: Georgia, serif;
+	margin-left:30px;
+}
+a {
+	font-family: Georgia, serif;
+	align-text:middle;
+}
+li {
+	font-family: Georgia, serif;
+}
+.home-page {
+	background-color: #ccffff;
+}
+.tv-page {
+	background-color: #ffffb3;
+}
+.restaurant-page {
+	background-color: #ffe6cc;
+}
+.book-page {
+	background-color: #ccffcc;
+}
+.home-title{
+	color:white;
+}
+.link {
+	position:relative;
+	display:flex;
+}
+.toolbar-home {
+	background-image: linear-gradient( #66d9ff, #00ace6);
+	padding-top:5px;
+	padding-bottom:5px;
+	box-shadow: 0px 5px 8px #aaaaaa;
+}
+.toolbar-book {
+	background-image: linear-gradient(  #99ff99,  #33ff33);
+	padding-top:5px;
+	padding-bottom:5px;
+	box-shadow: 0px 5px 8px #aaaaaa;
+}
+.toolbar-restaurant {
+	background-image: linear-gradient( #ffd9b3, #ff8000);
+	padding-top:5px;
+	padding-bottom:5px;
+	box-shadow: 0px 5px 8px #aaaaaa;
+}
+.toolbar-show {
+	background-image: linear-gradient( #ffff80, #e6e600);
+	padding-top:5px;
+	padding-bottom:5px;
+	box-shadow: 0px 5px 8px #aaaaaa;
+}
+.links {
+	margin-bottom: 20px;
+	margin-left:30px
+}
+.headshot {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+.book {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+	padding-bottom:5px;
+}
+.mango {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.images {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+	padding-bottom:5px;
+}
